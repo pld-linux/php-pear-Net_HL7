@@ -32,10 +32,18 @@ will be kept in sync with this initiative.
 
 In PEAR status of this package is: %{_status}.
 
-#%description -l pl
-#...
-#
-#Ta klasa ma w PEAR status: %{_status}.
+%description -l pl
+Ten pakiet dostarcza API HL7 do tworzenia, wysy³ania i obróbki
+komunikatów HL7. HL7 to protokó³ w 7 warstwie OSI (st±d '7' w HL7) do
+komunikacji w ¶rodowiskach Health Care. HL7 oznacza "Health Level 7'.
+HL7 to protokó³ z bogat± semantyk± definiuj±cy setki ró¿nych
+komunikatów i ich znaczenia, ale tak¿e definiuj±cy sk³adniê tworzenia
+i wysy³ania komunikatów. API skupia siê na poziomie sk³adni HL7, tak,
+aby pozostaæ jak najbardziej elastycznym. Pakiet jest t³umaczeniem
+perlowego zestawu narzêdzi HL7 i bêdzie utrzymywany w synchronizacji z
+t± inicjatyw±.
+
+Ta klasa ma w PEAR status: %{_status}.
 
 %prep
 %setup -q -c
