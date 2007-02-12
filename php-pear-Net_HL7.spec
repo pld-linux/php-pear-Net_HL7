@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - HL7 messaging API
-Summary(pl):	%{_pearname} - API wysy³ania wiadomo¶ci HL7
+Summary(pl.UTF-8):   %{_pearname} - API wysyÅ‚ania wiadomoÅ›ci HL7
 Name:		php-pear-%{_pearname}
 Version:	0.1.0
 Release:	3
@@ -35,22 +35,22 @@ will be kept in sync with this initiative.
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
-Ten pakiet dostarcza API HL7 do tworzenia, wysy³ania i obróbki
-komunikatów HL7. HL7 to protokó³ w 7 warstwie OSI (st±d '7' w HL7) do
-komunikacji w ¶rodowiskach Health Care. HL7 oznacza "Health Level 7'.
-HL7 to protokó³ z bogat± semantyk± definiuj±cy setki ró¿nych
-komunikatów i ich znaczenia, ale tak¿e definiuj±cy sk³adniê tworzenia
-i wysy³ania komunikatów. API skupia siê na poziomie sk³adni HL7, tak,
-aby pozostaæ jak najbardziej elastycznym. Pakiet jest t³umaczeniem
-perlowego zestawu narzêdzi HL7 i bêdzie utrzymywany w synchronizacji z
-t± inicjatyw±.
+%description -l pl.UTF-8
+Ten pakiet dostarcza API HL7 do tworzenia, wysyÅ‚ania i obrÃ³bki
+komunikatÃ³w HL7. HL7 to protokÃ³Å‚ w 7 warstwie OSI (stÄ…d '7' w HL7) do
+komunikacji w Å›rodowiskach Health Care. HL7 oznacza "Health Level 7'.
+HL7 to protokÃ³Å‚ z bogatÄ… semantykÄ… definiujÄ…cy setki rÃ³Å¼nych
+komunikatÃ³w i ich znaczenia, ale takÅ¼e definiujÄ…cy skÅ‚adniÄ™ tworzenia
+i wysyÅ‚ania komunikatÃ³w. API skupia siÄ™ na poziomie skÅ‚adni HL7, tak,
+aby pozostaÄ‡ jak najbardziej elastycznym. Pakiet jest tÅ‚umaczeniem
+perlowego zestawu narzÄ™dzi HL7 i bÄ™dzie utrzymywany w synchronizacji z
+tÄ… inicjatywÄ….
 
 Ta klasa ma w PEAR status: %{_status}.
 
 %package tests
 Summary:	Tests for PEAR::%{_pearname}
-Summary(pl):	Testy dla PEAR::%{_pearname}
+Summary(pl.UTF-8):   Testy dla PEAR::%{_pearname}
 Group:		Development/Languages/PHP
 Requires:	%{name} = %{epoch}:%{version}-%{release}
 AutoReq:	no
@@ -59,7 +59,7 @@ AutoProv:	no
 %description tests
 Tests for PEAR::%{_pearname}.
 
-%description tests -l pl
+%description tests -l pl.UTF-8
 Testy dla PEAR::%{_pearname}.
 
 %prep
