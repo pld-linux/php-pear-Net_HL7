@@ -8,7 +8,7 @@ Summary:	%{_pearname} - HL7 messaging API
 Summary(pl.UTF-8):	%{_pearname} - API wysyłania wiadomości HL7
 Name:		php-pear-%{_pearname}
 Version:	0.1.1
-Release:	1
+Release:	2
 Epoch:		0
 License:	PHP 2.02
 Group:		Development/Languages/PHP
