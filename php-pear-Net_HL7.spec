@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.php
 %define		_class		Net
 %define		_subclass	HL7
 %define		_status		alpha
